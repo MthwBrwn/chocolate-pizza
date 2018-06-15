@@ -1,0 +1,49 @@
+body {
+  width: 901px;
+}
+
+.text {
+  font-family: 'Times', serif;
+  font-size: medium;
+  color: black;
+  padding: 10px 0px;
+ }
+
+ li {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  margin: 0px 5px 0px 5px;
+  line-height: 25px;
+ }
+
+ aside {
+   width: 150px;
+ }
+
+main {
+  clear: both;
+}
+ div.left {
+  float: left;
+ }
+ 
+ div.right {
+  float: right;
+ }
+
+ .header {
+  display: inline-block;
+ }
+
+ .grey-divider {
+   border-bottom-width: 10px solid black;
+ }
+
+ .recipe-card {
+   background-image: "img/list-bg.png";
+ }
+
+ .author {
+   width: 165px; 
+   height: 75px;
+ }
