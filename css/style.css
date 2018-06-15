@@ -2,6 +2,11 @@ body {
   width: 901px;
 }
 
+section {
+  clear: both;
+  
+}
+
 .text {
   font-family: 'Times', serif;
   font-size: medium;
@@ -42,8 +47,21 @@ main {
  .recipe-card {
    background-image: "img/list-bg.png";
  }
+h4{
+  font-size: 7px;
+}
+
+h3{
+  font-size: 7 px;
+}
 
  .author {
    width: 165px; 
-   height: 75px;
+   height: 74px;
+ }
+
+ #author-pic {
+   clear: both;
+   height: 75 px;
+   width: 75px;
  }
