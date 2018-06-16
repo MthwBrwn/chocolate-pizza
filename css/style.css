@@ -38,6 +38,8 @@ main {
 
  .header {
   display: inline-block;
+  font-size: 16px;
+  
  }
 
  .grey-divider {
@@ -47,11 +49,11 @@ main {
  .recipe-card {
    background-image: "img/list-bg.png";
  }
-h4{
+h4 {
   font-size: 7px;
 }
 
-h3{
+h3 {
   font-size: 7 px;
 }
 
@@ -64,4 +66,13 @@ h3{
    clear: both;
    height: 75 px;
    width: 75px;
+ }
+
+ span {
+  background-color: #666;
+  display: inline-block;
+  height: 1px;
+  width: 40%;
+  margin: 10px;
+  text-align: center
  }
