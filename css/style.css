@@ -1,0 +1,78 @@
+body {
+  width: 901px;
+}
+
+section {
+  clear: both;
+  
+}
+
+.text {
+  font-family: 'Times', serif;
+  font-size: medium;
+  color: black;
+  padding: 10px 0px;
+ }
+
+ li {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  margin: 0px 5px 0px 5px;
+  line-height: 25px;
+ }
+
+ aside {
+   width: 150px;
+ }
+
+main {
+  clear: both;
+}
+ div.left {
+  float: left;
+ }
+ 
+ div.right {
+  float: right;
+ }
+
+ .header {
+  display: inline-block;
+  font-size: 16px;
+  
+ }
+
+ .grey-divider {
+   border-bottom-width: 10px solid black;
+ }
+
+ .recipe-card {
+   background-image: "img/list-bg.png";
+ }
+h4 {
+  font-size: 7px;
+}
+
+h3 {
+  font-size: 7 px;
+}
+
+ .author {
+   width: 165px; 
+   height: 74px;
+ }
+
+ #author-pic {
+   clear: both;
+   height: 75 px;
+   width: 75px;
+ }
+
+ span {
+  background-color: #666;
+  display: inline-block;
+  height: 1px;
+  width: 40%;
+  margin: 10px;
+  text-align: center
+ }
